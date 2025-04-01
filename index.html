@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1;
+            line-height: 1.4;
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
@@ -15,36 +15,61 @@
         h1 {
             color: #333;
             border-bottom: 2px solid #eee;
-            padding-bottom: 5px;
+            padding-bottom: 10px;
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
+        ul, ol {
+            padding-left: 20px;
+            margin: 10px 0;
         }
         li {
-            margin-bottom: 10px;
+            margin-bottom: 4px;  /* Reduced line spacing */
         }
         a {
             color: #0066cc;
             text-decoration: none;
-            padding: 5px 0;
             display: inline-block;
         }
         a:hover {
             text-decoration: underline;
         }
+        .list-container {
+            display: flex;
+            gap: 40px;
+            margin-top: 20px;
+        }
+        .list-section {
+            flex: 1;
+        }
+        h2 {
+            font-size: 1.2em;
+            color: #444;
+            margin-bottom: 8px;
+        }
     </style>
 </head>
 <body>
     <h1>Table of Contents</h1>
-    <ul>
-        <li><a href="http://JeremyLam69.github.io/Jamie/1991-AL-P-MATH-1-Q01.pdf" target="_blank" rel="noopener noreferrer">1991-AL-P MATH 1 #01</a></li>
-        <li><a href="https://www.example.com/section2" target="_blank" rel="noopener noreferrer">Section 2: Getting Started</a></li>
-        <li><a href="https://www.example.com/section3" target="_blank" rel="noopener noreferrer">Section 3: Advanced Topics</a></li>
-        <li><a href="https://www.example.com/section4" target="_blank" rel="noopener noreferrer">Section 4: Case Studies</a></li>
-        <li><a href="https://www.example.com/section5" target="_blank" rel="noopener noreferrer">Section 5: Conclusion</a></li>
-        <li><a href="https://www.example.com/appendix" target="_blank" rel="noopener noreferrer">Appendix</a></li>
-        <li><a href="https://www.example.com/glossary" target="_blank" rel="noopener noreferrer">Glossary</a></li>
-    </ul>
+    
+    <div class="list-container">
+        <div class="list-section">
+            <h2>Main Sections</h2>
+            <ol>
+                <li><a href="http://JeremyLam69.github.io/Jamie/1991-AL-P-MATH-1-Q01.pdf" target="_blank" rel="noopener noreferrer">1991-AL-P MATH 1 #01</a></li>
+                <li><a href="https://www.example.com/methods" target="_blank" rel="noopener noreferrer">Research Methods</a></li>
+                <li><a href="https://www.example.com/results" target="_blank" rel="noopener noreferrer">Results</a></li>
+                <li><a href="https://www.example.com/conclusion" target="_blank" rel="noopener noreferrer">Conclusion</a></li>
+            </ol>
+        </div>
+        
+        <div class="list-section">
+            <h2>Additional Resources</h2>
+            <ul>
+                <li><a href="https://www.example.com/appendix" target="_blank" rel="noopener noreferrer">Appendix</a></li>
+                <li><a href="https://www.example.com/glossary" target="_blank" rel="noopener noreferrer">Glossary</a></li>
+                <li><a href="https://www.example.com/references" target="_blank" rel="noopener noreferrer">References</a></li>
+                <li><a href="https://www.example.com/faq" target="_blank" rel="noopener noreferrer">FAQ</a></li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
