@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "e7bec9266cce76e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "74b52d2fc97edde1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9844628de4849883",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e14d3b2dfba832b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "82884123b0c0d47a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8fe3de0b9f5f414a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6aa03ea2aac02707",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "456b2e059bdfa526",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 214.5
+  },
+  "right": {
+    "id": "6a3157ac420e7e2f",
+    "type": "split",
+    "children": [
+      {
+        "id": "35e2b42b3c83e3d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "99d36dea8c9380fc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Ans-10.pdf.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Ans-10.pdf"
+            }
+          },
+          {
+            "id": "a10fcc66a843e372",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Ans-10.pdf.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Ans-10.pdf"
+            }
+          },
+          {
+            "id": "23fc86fe0ca3aad1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "3235083e8c00e8c7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Ans-10.pdf.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Ans-10.pdf"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "print:Print note": false
+    }
+  },
+  "active": "9844628de4849883",
+  "lastOpenFiles": [
+    "2002-AL-P-MATH-1-Q08.md",
+    "2002-AL-P-MATH-1-Q12.md",
+    "2004-AL-P-MATH-1-Q07.md",
+    "1986-CE-A MATH-2-Q11.md",
+    "2003-AL-P-MATH-1-Q07.md",
+    "5(e).md",
+    "1981-HL-GEN-MATHS-Q02.md",
+    "2004-AL-P-MATH-1-Q08.md",
+    "2003-AL-P-MATH-1-Q08.md",
+    "1999-AL-P-MATH-1-Q01.md",
+    "1998-CE-A-MATH-1-Q01.md",
+    "1998-AL-P-MATH-1-Q08.md",
+    "1998-AL-P-MATH-1-Q01.md",
+    "2000-AL-P-MATH-1-Q01.md",
+    "2000-AL-P-MATH-1-Q08.md",
+    "2001-AL-P-MATH-1-Q09.md",
+    "1996-CE-A-MATH-1-Q02.md",
+    "1996-CE-A-MATH-1-Q01.md",
+    "1993-CE-A-MATH-1-Q01.md",
+    "1991-CE-A-MATH-1-Q02.md",
+    "1999-AL-P-MATH-1-Q08.md",
+    "1999-AL-P-MATH-1-Q09.md",
+    "2007-AL-P-MATH-1-Q05.md",
+    "2011-AL-P-MATH-1-Q08.md",
+    "2012-DSE-MATH-EP(M2)-Q11.md",
+    "2013-AL-P-MATH-1-Q11.md",
+    "Untitled"
+  ]
+}
